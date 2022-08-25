@@ -1,0 +1,41 @@
+.banner {
+    /* background-color: #201b1e;
+    background-image: url("../img/hero-bg.jpg");
+    background-image: url("../img/hero-bg.jpg"), linear-gradient(#201b1e, #150b0a); */
+    background: linear-gradient(
+    to left,
+    rgba(12, 9, 9, 0.366),
+    rgba(0,0,0, 100)
+ 
+  ),url(../img/hero-bg.jpg);
+    background-size: cover;
+    object-fit: cover;
+    width: 100%;
+    background-repeat: no-repeat;
+
+
+}
+
+.content {
+    padding-top: 150px;
+    padding-bottom: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.content>h1 {
+    text-align: center;
+    color: #fff;
+    font-weight: 600;
+    font-size: 50px;
+}
+
+.content>p {
+    text-align: center;
+    color: #fff;
+    font-weight: 600;
+    font-size: 20px;
+    opacity: 0.5;
+}
